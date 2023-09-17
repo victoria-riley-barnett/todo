@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Board</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body id="index">
+        <div class="container">
+            <div class="board-app">
+                <h2><a href="index.html">To-Do List</a>><img src="images/todo.png"></h2>
+                <h2><a href="/board.html">Board</a></h2>
+                <button onclick="clearAll()" id="clearbtn">Clear All</button>
+                <div class="row">
+                    <input type="text" id="input-box" placeholder="Enter a task">
+                    <button onclick="addTask()" id="addbtn">Add</button>
+                </div>
+                <div class="board">
+                    <ul id="list2-container">To Do
+                        <li>test</li>
+                    </ul>
+                    <ul id="inprogress-container">In Progress
+                        <li>test</li>
+                    </ul>
+                    <ul id="review-container">Review
+                        <li>test</li>
+                    </ul>
+                    <ul id="done-container">Done
+                        <li>test</li>
+                    </ul>
+                </div>
+        </div>
+        <script src="./boardscript.js"></script>
+    </body>
+</html>
